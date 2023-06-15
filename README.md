@@ -1,47 +1,5 @@
 # Hardhat Fund Me
 
-*This repo has been updated to work with Sepolia Testnet over Goerli.*
-
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
-
-*[⌨️ (10:00:48) Lesson 7: Hardhat Fund Me](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=36048s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
-- [Hardhat Fund Me](#hardhat-fund-me)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-  - [Scripts](#scripts)
-  - [Estimate gas](#estimate-gas)
-    - [Estimate gas cost in USD](#estimate-gas-cost-in-usd)
-  - [Verify on etherscan](#verify-on-etherscan)
-- [Linting](#linting)
-- [Formatting](#formatting)
-- [Thank you!](#thank-you)
-
-This project is apart of the Hardhat FreeCodeCamp video.
-
-# Getting Started
-
-## Requirements
-
-- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
-- [Nodejs](https://nodejs.org/en/)
-  - You'll know you've installed nodejs right if you can run:
-    - `node --version` and get an ouput like: `vx.x.x`
-- [Yarn](https://yarnpkg.com/getting-started/install) instead of `npm`
-  - You'll know you've installed yarn right if you can run:
-    - `yarn --version` and get an output like: `x.x.x`
-    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
-
 ## Quickstart
 
 ```
@@ -57,12 +15,6 @@ For the typescript edition, run:
 ```
 git checkout typescript
 ```
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/hardhat-fund-me-fcc)
 
 # Usage
 
