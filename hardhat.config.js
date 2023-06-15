@@ -31,6 +31,7 @@ module.exports = {
             accounts: [PRIVATE_KEY],
             chainId: 11155111,
             blockConfirmations: 6,
+            // gasPrice: 130000000000,
         },
     },
     solidity: {
@@ -48,10 +49,12 @@ module.exports = {
         // customChains: [], // uncomment this line if you are getting a TypeError: customChains is not iterable
     },
     gasReporter: {
-        enabled: true,
+        enabled: false,
         currency: "USD",
         outputFile: "gas-report.txt",
         noColors: true,
+        gas: 2100000,
+        gasPrice: 8000000000
         // coinmarketcap: COINMARKETCAP_API_KEY,
     },
     namedAccounts: {
